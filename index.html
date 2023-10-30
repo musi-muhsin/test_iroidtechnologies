@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+    <!-- header  -->
+    <header>
+        <div class="logo">
+            Hero
+        </div>
+        <div class="d-flex align-items-center gap-5">
+            <nav class="d-none d-md-flex">
+                <a href="#" class="active">Home</a>
+                <a href="#">Features</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+                <a href="#">About Us</a>
+            </nav>
+        
+            <div class="sidebarToggleButton"  id="sidebarToggleButton">
+                <div class="menu__icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+        </div>
+      </header>
+      <!-- hero  -->
+      <section class="hero d-flex">
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-6 col-md-12">
+                <div class="Hero-text">
+                    <div class="me-md-5" id="mainText">
+                        <h2>Build Your Best Community Starting from here</h2>
+                        <p>Meet and communication with the best people to run projects, events or other activities in a more effective and fun away</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <button class="btn btn-primary">Get Started</button>
+                            <button class="btn btn-learnmore">Learn more 
+                                <svg width="14" height="14" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#fff" d="M8.293 2.293a1 1 0 0 1 1.414 0l4.5 4.5a1 1 0 0 1 0 1.414l-4.5 4.5a1 1 0 0 1-1.414-1.414L11 8.5H1.5a1 1 0 0 1 0-2H11L8.293 3.707a1 1 0 0 1 0-1.414Z"/>
+                            </svg>
+                        </button>
+                        </div>
+                    </div>
+                 <div class="d-md-flex flex-row gap-4 animateContent">
+                    <div class="icons d-flex align-items-center gap-3">
+                        <img src="assets/icons/icon1.png" />
+                        <p>Build <br> Community</p>
+                    </div>
+                    <div class="icons d-flex align-items-center gap-3">
+                        <img src="assets/icons/icon2.png" />
+                        <p>Share <br> Events</p>
+                    </div>
+                    <div class="icons d-flex align-items-center gap-3">
+                        <img src="assets/icons/icon3.png" />
+                        <p>Get <br> Information</p>
+                    </div>
+                 </div>     
+                </div>
+          
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="Hero-image">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-4">
+                            <div class="image-columns d-flex flex-column ">
+                           <img src="assets/images/img1.png" class="animate-image" />
+                           <img src="assets/images/img5.png" class="animate-image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="image-columns d-flex flex-column ">
+                           <img src="assets/images/img4.png" class="animate-image" />
+                           <img src="assets/images/img3.png" class="animate-image" />
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                           <img src="assets/images/img2.png" class="animate-image" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+     
+      <section class="cards">
+        <div class="container">
+            <div class="row mx-lg-5">
+                <h2 class="text-white text-center mb-5 animateContent">Discover the Best Community</h2>
+                <div class="col-xl-4 col-md-6">
+                    <div class="item-card shadow-sm rounded-4 p-3">
+                        <img src="assets/images/healthy.png" class="rounded-4 mb-3 w-100" alt="">
+                        <div class="d-flex flex-column text-center gap-1">
+                         <h6 class="text-primary fs-6 fw-medium mb-1">Exciting</h6>
+                         <h3 class=" mb-1">Healthy Life</h3>
+                         <p class="px-2 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore rem saepe, </p>
+                        </div>
+                     </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="item-card shadow-sm rounded-4 p-3">
+                        <img src="assets/images/improving.png" class="rounded-4 mb-3 w-100" alt="">
+                        <div class="d-flex flex-column text-center gap-1">
+                         <h6 class="text-primary fs-6 fw-medium mb-1">Retired</h6>
+                         <h3 class=" mb-1">Improving</h3>
+                         <p class="px-2 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore rem saepe, </p>
+                        </div>
+                     </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                  <div class="item-card shadow-sm rounded-4 p-3">
+                     <img src="assets/images/relationship.png" class="rounded-4 mb-3 w-100" alt="">
+                     <div class="d-flex flex-column text-center gap-1">
+                      <h6 class="text-primary fs-6 fw-medium mb-1">Recidents</h6>
+                      <h3 class=" mb-1">Relationship</h3>
+                      <p class="px-2 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore rem saepe, </p>
+                     </div>
+                  </div>
+                </div>
+              
+              </div>
+        </div>
+      
+      </section>
+  
+    </div>
+
+
+    <!-- offcanvas  -->
+
+    <div class="mainBody position-fixed" id="overlay">
+    </div>
+    <div class="sideModal z-3 top-0 position-fixed" id="openProfileSideOffcanvas">
+        <div class="position-relative right-0">
+            <svg id="closeIcon" class=" position-absolute top-0 right-0 m-3" width="35" height="35" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#fff" d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59L7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12L5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"/>
+            </svg>
+        </div>
+        <div class="container vh-100">
+          <div class="row d-flex align-items-center">
+            <div class="col-lg-3">
+               <h5 class="mb-4">Follow US </h5>
+               <h6 class="mb-2">Dribble </h6>
+               <h6 class="mb-1">Behance </h6>
+               <h6 class="mb-1">Instagram </h6>
+               <h6 class="mb-1">Facebook </h6>
+               <h6 class="mb-1">Twitter </h6>
+               <h6 class="mb-1">Youtube </h6>
+            </div>
+            <div class="col-lg-6">
+                <h2>HOME</h2>
+                <h2>FEATURES</h2>
+                <h2>BLOG</h2>
+                <h2>CONTACT</h2>
+                <h2>ABOUT</h2>
+            </div>
+          </div>
+        </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+  </body>
+</html>
