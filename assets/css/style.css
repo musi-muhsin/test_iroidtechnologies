@@ -152,6 +152,22 @@ header.is-sticky button {
     right: -100%;
     color:var(--white)
 }
+.sideModal .nav-items{
+   font-size: 15px;
+   font-weight: 600;
+   color: var(--white);
+   text-decoration:none;
+}
+.sideModal .navbar-items{
+   font-size: 45px;
+   font-weight: 600;
+   color: var(--white);
+   text-decoration:none;
+}
+.closeIcon{
+  height:10vh;
+  width:100%
+}
 #closeIcon{
     width: 40px;
     height: 40px;
@@ -165,6 +181,59 @@ header.is-sticky button {
 }
 #closeIcon:hover{
 transform: rotate(180deg);
+}
+.offcanvas__search {
+  position: relative;
+}
+.offcanvas__search input {
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+  padding: 20px 45px 20px 20px;
+  border-radius: 30px;
+  border: 1px solid #3C3C3C;
+  background-color: transparent;
+  outline: none;
+  transition:0.3s ease-in;
+}
+.offcanvas__search input:focus {
+  border: 1px solid var(--white);
+}
+.offcanvas__search svg{
+  position: absolute;
+  right: 14px;
+  top: 21px;
+}
+.offcanvas__contact ul{
+ padding: 0;
+} 
+.offcanvas__contact ul li, a{
+  list-style: none;
+  color:var(--white);
+  text-decoration: none;
+  margin-bottom: 10px;
+} 
+.navbar-items{
+  background:
+    linear-gradient(
+      to right,
+      rgb(255, 255, 255),
+      rgb(255, 255, 255)
+    ),
+    linear-gradient(
+      to right,
+      #209852be,
+      #209852
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: -191px 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.navbar-items:hover {
+  background-size: 0 3px, 65% 3px;
 }
 .Hero-text h2{
     font-size: 64px;
@@ -306,5 +375,15 @@ header.is-sticky{
 }
 .cards{
   padding: 31px 0 70px;
+}
+.sideModal .navbar-items{
+  font-size: 25px;
+  font-weight: 600;
+}
+.navbar-items{
+  background-position: 100% 100%, 0 100%;
+}
+.navbar-items:hover {
+  background-size: 0 3px, 100% 3px;
 }
 }
