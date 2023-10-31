@@ -37,6 +37,7 @@ header nav a {
   font-size: 14px;
   text-decoration: none;
   color: #838487;
+  margin-bottom: 0;
 }
 
 header nav a::before {
@@ -276,30 +277,6 @@ header.is-sticky button {
   padding: 50px 0 100px;
 }
 
-#mainText {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: transform 0.5s, opacity 0.5s;
-}
-
-.animateContent {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: transform 0.5s, opacity 0.5s;
-}
-
-.animate-image {
-  opacity: 0;
-  transform: translateY(400px);
-  transition: transform 0.5s, opacity 0.5s;
-}
-
-.item-card {
-  opacity: 0;
-  transform: translateY(1000px);
-  transition: transform 0.5s, opacity 0.5s;
-}
-
 .Hero-text {
   display: flex;
   flex-direction: column;
@@ -385,7 +362,25 @@ header.is-sticky button {
 .item-card p {
   font-size: 13px;
   margin-bottom: 25px;
+}
 
+/* anime css  */
+#mainText, .animateContent {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.animate-image {
+  opacity: 0;
+  transform: translateY(400px);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.item-card {
+  opacity: 0;
+  transform: translateY(1000px);
+  transition: transform 0.5s, opacity 0.5s;
 }
 
 @media screen and (max-width: 1200px) {
